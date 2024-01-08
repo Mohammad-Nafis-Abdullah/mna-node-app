@@ -3,13 +3,18 @@
     "version": "1.0.0",
     "description": "A node server template of ts with express integration",
     "main": "dist/index.js",
+    "bin": "./bin/cli/js",
     "scripts": {
         "start": "node dist/index.js",
         "dev": "nodemon",
         "build": "tsc"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Mohammad-Nafis-Abdullah/mna-node-server.git"
+    },
     "keywords": [],
-    "author": "",
+    "author": "Mohammad Nafis Abdullah",
     "license": "ISC",
     "devDependencies": {
         "@types/cors": "^2.8.17",
