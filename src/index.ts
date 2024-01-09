@@ -1,3 +1,4 @@
+import './schema/global.schema';
 import express, { Request, Response } from "express";
 import cors from "cors";
 
@@ -15,6 +16,7 @@ const app = express();
 //         }
 //     }
 // }
+import './schema/global.schema';
 
 // use middleware
 app.use(express.json());
