@@ -5,19 +5,6 @@ import cors from "cors";
 const PORT = 5000;
 const app = express();
 
-/* Extend the Request interface in place to include your custom variable */
-// declare global {
-//     namespace Express {
-//         interface Request {
-
-//         }
-//         interface Response {
-
-//         }
-//     }
-// }
-import './schema/global.schema';
-
 // use middleware
 app.use(express.json());
 app.use(cors());

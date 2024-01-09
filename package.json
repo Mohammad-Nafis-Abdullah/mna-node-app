@@ -1,6 +1,6 @@
 {
     "name": "mna-node-app",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "A node server template of ts and express integration",
     "main": "./dist/index.js",
     "bin": "/bin/cli.js",
