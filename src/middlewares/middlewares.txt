@@ -1,3 +1,0 @@
-The conventional way is :
-    -> To write all middleware function in this folder and export them if needed.
-    -> Import the middlewares writen in this folder in the index.ts file if needed.
