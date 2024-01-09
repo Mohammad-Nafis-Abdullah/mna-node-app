@@ -1,6 +1,6 @@
 {
     "name": "mna-node-app",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "A node server template of ts and express integration",
     "main": "./dist/index.js",
     "bin": "/bin/cli.js",
@@ -11,7 +11,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/Mohammad-Nafis-Abdullah/mna-node-server.git"
+        "url": "https://github.com/Mohammad-Nafis-Abdullah/mna-node-app.git"
     },
     "keywords": [],
     "author": "Mohammad Nafis Abdullah",
