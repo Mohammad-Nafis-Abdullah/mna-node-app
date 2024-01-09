@@ -1,9 +1,9 @@
 {
-    "name": "mna-node-server",
+    "name": "mna-node-app",
     "version": "1.0.0",
-    "description": "A node server template of ts with express integration",
-    "main": "dist/index.js",
-    "bin": "./bin/cli/js",
+    "description": "A node server template of ts and express integration",
+    "main": "./dist/index.js",
+    "bin": "/bin/cli.js",
     "scripts": {
         "start": "node dist/index.js",
         "dev": "nodemon",

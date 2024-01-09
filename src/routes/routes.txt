@@ -1,0 +1,4 @@
+The conventional way is :
+    -> To declare routes path in the index.ts file.
+    -> To write all declared route in this folder and export them if needed.
+    -> Import the route functions writen in this folder in the index.ts file and pass them into the corresponding route middleware.
