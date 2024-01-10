@@ -15,7 +15,7 @@ const runCommand = (command) => {
 const repoName = process.argv[2];
 const gitCheckoutCommand = `git clone --depth 1 https://github.com/Mohammad-Nafis-Abdullah/mna-node-server.git ${repoName}`;
 const installDepsCommand = `cd ${repoName} && npm install`;
-const creatingFolderCommand = `cd ${repoName} && rm -rf ./bin && rm -rf ./.git`;
+const creatingFolderCommand = `cd ${repoName} && rm -rf ./bin && rm -rf ./.git && cd ./src && mkdir db && mkdir middlewares && mkdir routes && mkdir utils`;
 const openInVsCodeCommand = `cd ${repoName} && code .`;
 
 
